@@ -181,7 +181,7 @@ function updateVisualization() {
     
     const height = bst.getHeight();
     const horizontalSpacing = 300;
-    const verticalSpacing = 300;
+    const verticalSpacing = 150;
     
     drawTree(bst.root, svgWidth / 2, 40, horizontalSpacing, verticalSpacing, 0);
 }
