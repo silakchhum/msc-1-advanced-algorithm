@@ -180,7 +180,7 @@ function updateVisualization() {
     const svgHeight = 500;
     
     const height = bst.getHeight();
-    const horizontalSpacing = svgWidth / Math.pow(2, height);
+    const horizontalSpacing = svgWidth / 2;
     const verticalSpacing = svgHeight / (height + 1);
     
     drawTree(bst.root, svgWidth / 2, 40, horizontalSpacing, verticalSpacing, 0);
